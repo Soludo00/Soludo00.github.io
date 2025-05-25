@@ -1,70 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Soso's Page</title>
+    <title>Soludo's Page</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f7f7f7;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
             color: #222;
-            padding: 40px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
         }
 
         h1, h2 {
             color: #2c3e50;
         }
 
-        table {
-            border-collapse: collapse;
-            width: 300px;
-            margin-top: 10px;
-        }
-
-        th, td {
-            border: 1px solid #444;
-            padding: 8px 12px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #ddd;
-        }
-
         p, ul {
-            max-width: 600px;
+            font-size: 17px;
             line-height: 1.6;
         }
 
         ul {
             padding-left: 20px;
         }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        th {
+            background-color: #e0e0e0;
+        }
+
+        td {
+            background-color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #888;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
-    <h1>About Me</h1>
+    <div class="container">
+        <h1>About Me</h1>
 
-    <p>
-        My name is Soso. I'm a Computer Science student at Seattle Pacific University (it's killing me lol). I enjoy drawing anime, playing basketball, and playing the saxophone. 
-        I like watching <em>Attack on Titan</em> and Christopher Nolan movies — especially <strong>Tenet</strong>.
-    </p>
+        <p>
+            My name is Soludo. I'm a Computer Science student at Seattle Pacific University. I enjoy drawing anime, playing basketball, and playing the saxophone. 
+            I like watching <em>Attack on Titan</em> and Christopher Nolan movies — especially <strong>Tenet</strong>.
+        </p>
 
-    <h2>Courses I'm Taking</h2>
-    <table>
-        <tr>
-            <th>Course Code</th>
-        </tr>
-        <tr>
-            <td>CS 2431</td>
-        </tr>
-        <tr>
-            <td>CS 3220</td>
-        </tr>
-        <tr>
-            <td>CS 3150</td>
-        </tr>
-    </table>
+        <h2>Courses I'm Taking</h2>
+        <table>
+            <tr>
+                <th>Course Code</th>
+                <th>Course Title</th>
+            </tr>
+            <tr>
+                <td>CS 2431</td>
+                <td>Data Structures and Algorithms</td>
+            </tr>
+            <tr>
+                <td>CS 3220</td>
+                <td>Net-Centric Computing</td>
+            </tr>
+            <tr>
+                <td>CS 3150</td>
+                <td>Systems Design</td>
+            </tr>
+        </table>
 
-    <h2>Something About Me</h2>
-    <p>I am a human.</p>
+        <h2>Something About Me</h2>
+        <p>
+            I am a human.
+        </p>
+    </div>
 </body>
 </html>
